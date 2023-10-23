@@ -28,3 +28,4 @@ resource "aws_db_instance" "database-instance" {
   multi_az               = var.multi-az-deployment
   vpc_security_group_ids = [aws_security_group.database-security-group.id]
 }
+

@@ -1,5 +1,8 @@
 #####################
 #   NAT Gateway #
+#   Usage: Allow instances in a private subnet can connect to service 
+#          outside your VPC but external service cannot initiate a connection
+#          with those instances.
 #####################
 
 resource "aws_eip" "eip_nat" {

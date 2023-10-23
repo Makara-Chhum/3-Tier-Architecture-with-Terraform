@@ -58,7 +58,7 @@ variable "private-db-subnet-2-cidr" {
 ## App tier security group ##
 ############################
 variable "ssh-locate" {
-  default     = "yourip"
+  default     = "0.0.0.0/0"
   description = "ip address"
   type        = string
 }

@@ -1,4 +1,9 @@
 provider "aws" {
-  region  = "us-east-1"
-  profile = "vscode"
+  region = "us-west-2"
+
+  # assume_role {
+  # role_arn = "arn:aws:iam::aws:policy/AdministratorAccess"
+
+  #  sts_regional_endpoints = "regional"
+  #}
 }
